@@ -1,0 +1,155 @@
+#title{
+    background-color: #0d6efd;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+h1{
+    font-size: 3.5rem;
+    font-family: 'Montserrat-Black';
+    line-height: 1.5;
+    color: #fff;
+    padding: 0 0 30px 0;
+}
+
+h2,h3{
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.icon{
+    padding: 20px;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Ubuntu';
+    color: #fff;
+}
+
+.navbar{
+    padding-bottom: 40px;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.title-icon{
+    color: #fff;
+    padding-right: 10px;
+}
+
+#title button:hover{
+    background-color:#fff;
+    .title-icon{
+        color: #000000;
+    }
+}
+
+
+.title-picture{
+    width: 20%;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* feature section */
+
+#feature{
+    background-color: #fff;
+    padding: 8% 15%;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-image{
+    width:100%;
+}
+
+/* contact section */
+
+#testimonials{
+    background-color: #68a5ff;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 8% 15%;
+}
+
+.carousel-item h2{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.carousel-item img{
+    width:10%;
+    border-radius: 100%;
+    margin: 0 5px 0 0;
+}
+
+.user{
+    margin-top: 10%;
+    color: #fff;
+}
+
+/* call to action */
+
+#cta{
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#cta h2{
+    font-size: 3rem;
+    margin:20px 0;
+}
+
+.download-btn{
+    margin: 6% 0 0 0;
+}
+
+.cta-icon{
+    color: #0d6efd;
+    padding-right: 10px;
+}
+
+.download-btn:hover{
+    .cta-icon{
+        color: #fff;
+    }
+}
+
+/* footer */
+
+footer{
+    background-color: #0d6efd;
+    padding: 3% 15%;
+    color: #fff;
+    text-align: center;
+}
+
+@media(max-width:990px){
+    #title{
+        text-align: center;
+    }
+    .title-picture{
+        position: static;
+        padding-top: 40px;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title ul{
+        float: left;
+    }
+}
